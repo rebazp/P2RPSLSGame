@@ -19,13 +19,17 @@ choiceButton.forEach(button => button.addEventListener("click", () => {
     scoreText.textContent = checkWinner();
 }));
 
+/**
+ * Main game function
+ */
+
 function computerTurn() {
 
     const randNum = Math.floor(Math.random() * 5) + 1;
 
     switch (randNum) {
         case 1:
-            comnputer = "ROCK";
+            computer = "ROCK";
             break;
         case 2:
             computer = "PAPER";
@@ -42,6 +46,10 @@ function computerTurn() {
 
     }
 }
+
+/**
+ * Winner function
+ */
 
 function checkWinner() {
     if (player == computer) {
