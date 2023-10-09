@@ -56,18 +56,18 @@ function checkWinner() {
         return "DRAW";
     }
     else if (computer == "ROCK") {
-        return (player == "PAPER") ? "YOU WIN!" : "YOU LOSE!";
+        return (player == "SCISSOR" || player == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (computer == "PAPER") {
-        return (player == "SCISSOR") ? "YOU WIN!" : "YOU LOSE!";
+        return (player == "ROCK" || player == "SPOCK") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (computer == "SCISSOR") {
-        return (player == "ROCK") ? "YOU WIN!" : "YOU LOSE!";
+        return (player == "PAPER" || player == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (computer == "LIZARD") {
-        return (player == "SPOCK") ? "YOU WIN!" : "YOU LOSE!";
+        return (player == "SPOCK" || player == "PAPER") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (computer == "SPOCK") {
-        return (player == "SCISSOR") ? "YOU WIN!" : "YOU LOSE!";
+        return (player == "SCISSOR" || player == "ROCK") ? "YOU LOSE!" : "YOU WIN!";
     }
 }
