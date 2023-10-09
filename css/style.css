@@ -24,3 +24,15 @@
 #resultText {
     color: rgb(160, 6, 160)
 }
+
+#imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#GameRules {
+    max-width: 100%;
+    max-height: 100%;
+}
