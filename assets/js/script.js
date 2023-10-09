@@ -10,6 +10,9 @@ let player;
 let computer;
 let result;
 
+/**
+ * Main game area
+ */
 choiceBtns.forEach(button => button.addEventListener("click", () => {
 
     player = button.textContent;
