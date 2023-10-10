@@ -32,11 +32,11 @@ The second object is the picture showing the rules of the game. It's easy to und
 
 ## Testing
 
-I have played this game with multiple options to see if it works as intended. From my testing I haven't stumbled upon any problems with the game. The computer picks one random option everytime and follows the rules on who won, lost or draw.
+I have played this game many times with multiple options to see if it works as intended. From my testing I haven't stumbled upon any problems with the game. The computer picks one random option everytime and follows the rules on who won, lost or draw.
 
 The game works on different platforms and is adaptive and responsive.
 
-I did not encounter any bugs. But I did have to try different options to make the game work with the addition of lizard and spock since the game was based on rock, paper and scissor.
+I did not encounter any bugs. But I did have to try different options to make the game work with the addition of lizard and spock since the main game code was based on rock, paper and scissor.
 
 ### Validator Testing
 
