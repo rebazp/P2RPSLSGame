@@ -32,7 +32,7 @@ The second object is the picture showing the rules of the game. It's easy to und
 
 ## Testing
 
-I have played this game with multiple options to see if it works as intended. From my testing I haven't stumbled upon any problems with the game. It the computer picks a random option everytime and follows the rules on who won and lost.
+I have played this game with multiple options to see if it works as intended. From my testing I haven't stumbled upon any problems with the game. The computer picks one random option everytime and follows the rules on who won, lost or draw.
 
 The game works on different platforms and is adaptive and responsive.
 
@@ -57,8 +57,6 @@ I did not encounter any bugs. But I did have to try different options to make th
 There is no unfixed bugs.
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the GitHub repository, navigate to the Settings tab
