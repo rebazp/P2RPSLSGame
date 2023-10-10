@@ -1,6 +1,6 @@
 # Rock, Paper, Scissor, Lizard, Spock. A classic game with a twist!
 
-This game is made for those who doesn't have someone to play rock, paper, scissor, liard, spock with. Here you can play the game as much as you want. It's easy to use and is enjoyable for all ages.
+This game is made for those who doesn't have someone to play rock, paper, scissor, lizard, spock with. Here you can play the game as much as you want. It's easy to use and is enjoyable for all ages.
 
 You play against the computer, who picks a random option everytime.
 
@@ -8,13 +8,15 @@ You play against the computer, who picks a random option everytime.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The game have two main objects. One area for the game where the player chose one option (rock, paper, scissor, lizard, spock). When the player have chosen one option the computer will immediately also chose one random option. Based on the rules. The game either ends in win, lose or draw.
+
+The second object is the picture showing the rules of the game. It's easy to understand with suitable icons for all ages.
 
 ### Existing Features
 
 - __The Game Area__
 
-  - This section will allow the user to play the game. The player will see the player and computer choice. When the player have choosen a option, the result will appear. There are buttons with five options which the player can chose from by clicking on them. The player can only chose one option at the time. 
+  - This section will allow the user to play the game. The player will see the player and computer choice. When the player have chose a option, the result will appear. There are buttons with five options which the player can chose from by clicking on them. The player can only chose one option at the time.
 
 ![Game](assets/images/game.jpg)
 
@@ -26,7 +28,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
-- A feature that could be added in the future is to track the score, set a score limit and reset score button. 
+- A feature that could be added in the future is to track the score, set a score limit and reset score button.
 
 ## Testing
 
@@ -67,7 +69,7 @@ The live link can be found here - <https://rebazp.github.io/Rock-Paper-Scissor-L
 
 ## Credits
 
-The code that I've used in this project comes from Youtube channels: 
+The code that I've used in this project comes from Youtube channels:
 - [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode)
 - [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn)
 
