@@ -39,9 +39,9 @@ I did not encounter any bugs. But I did have to try different options to make th
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frebazp.github.io%2FProject2%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2Frebazp%2FRock-Paper-Scissor-Lizard-Spock.git#textarea)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frebazp.github.io%2FProject2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frebazp.github.io%2FRock-Paper-Scissor-Lizard-Spock%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 - JavaScript
   - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
     - The following metrics were returned:
@@ -63,7 +63,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://code-institute-org.github.io/love-maths/>
+The live link can be found here - <https://rebazp.github.io/Rock-Paper-Scissor-Lizard-Spock/>
 
 ## Credits
 
