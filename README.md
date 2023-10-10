@@ -73,9 +73,9 @@ The code that I've used in this project comes from Youtube channels:
 
 ### Content
 
-- The game area comes from [Bro Code] rock, paper, scissor game (https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode)
+- The game area comes from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode)
 - The added code for lizard and spock comes from [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn)
-- Picture with instructions on how to play the game comes from (https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game)
+- Picture with instructions on how to play the game comes from [Momonhg](https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game)
 
 ### Media
 
