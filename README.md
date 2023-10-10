@@ -53,7 +53,8 @@ I did not encounter any bugs. But I did have to try different options to make th
     - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
 - Accessibility
   - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
- ![Lighthouse](assets/images/lighthouse.jpg)
+ 
+![Lighthouse](assets/images/lighthouse.jpg)
 
 ### Unfixed Bugs
 
