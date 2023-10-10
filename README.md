@@ -16,7 +16,7 @@ The second object is the picture showing the rules of the game. It's easy to und
 
 - __The Game Area__
 
-  - This section will allow the user to play the game. The player will see the player and computer choice. When the player have chose a option, the result will appear. There are buttons with five options which the player can chose from by clicking on them. The player can only chose one option at the time.
+  - This section will allow the user to play the game. The player will see the player and computer choice. When the player have chosen one option, the result will appear. There are buttons with five options which the player can chose from by clicking on them. The player can only chose one option at the time.
 
 ![Game](assets/images/game.jpg)
 
