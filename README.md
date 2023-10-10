@@ -1,8 +1,8 @@
 # Rock, Paper, Scissor, Lizard, Spock. A classic game with a twist
 
-This game is made for those who doesn't have someone to play rock, paper, scissor, lizard, spock with. Here you can play the game as much as you want. It's easy to use and is enjoyable for all ages.
+This game is made for entertainmet purpose for those who want to play rock, paper, scissor, lizard, spock with. Here you can play the game as much as you want by yourself against the computer. It's easy to use and is enjoyable for all ages.
 
-You play against the computer, who picks a random option everytime.
+You play against the computer which picks a random option everytime.
 
 ![Responsive Mockup](assets/images/responsive.jpg)
 
@@ -53,7 +53,7 @@ I did not encounter any bugs. But I did have to try different options to make th
     - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
 - Accessibility
   - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
- 
+
 ![Lighthouse](assets/images/lighthouse.jpg)
 
 ### Unfixed Bugs
