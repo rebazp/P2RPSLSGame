@@ -1,4 +1,4 @@
-# Rock, Paper, Scissor, Lizard, Spock. A classic game with a twist!
+# Rock, Paper, Scissor, Lizard, Spock. A classic game with a twist
 
 This game is made for those who doesn't have someone to play rock, paper, scissor, lizard, spock with. Here you can play the game as much as you want. It's easy to use and is enjoyable for all ages.
 
@@ -68,6 +68,7 @@ The live link can be found here - <https://rebazp.github.io/Rock-Paper-Scissor-L
 ## Credits
 
 The code that I've used in this project comes from Youtube channels:
+
 - [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode)
 - [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn)
 
