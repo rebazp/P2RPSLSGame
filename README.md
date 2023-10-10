@@ -79,4 +79,4 @@ The code that I've used in this project comes from Youtube channels:
 
 ### Media
 
-- The photos used in this game comes from this blog (<https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game>)
+- The photos used in this game comes from a blog by [Momonhg](<https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game>)
