@@ -51,6 +51,9 @@ I did not encounter any bugs. But I did have to try different options to make th
     - Function with the largest signature takes 1 arguments, while the median is 0.
     - Largest function has 7 statements in it, while the median is 2.
     - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
+- Accessibility
+  - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+ ![Lighthouse](assets/images/lighthouse.jpg)
 
 ### Unfixed Bugs
 
