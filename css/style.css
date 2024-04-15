@@ -21,15 +21,15 @@
 }
 
 #playerText {
-    color: black
+    color: #086904
 }
 
 #computerText {
-    color: rgb(6, 160, 45)
+    color: rgb(108, 131, 5)
 }
 
 #resultText {
-    color: rgb(160, 6, 160)
+    color: red;
 }
 
 /*Rule and picture section*/
