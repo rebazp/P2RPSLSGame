@@ -15,16 +15,16 @@ let drawScore = 0;
 
 /* Main game area */
 
-choiceBtns.forEach(button => button.addEventListener("click", () => {
+function initializeSelection(event) {   // Activate game after user selection
+    user = event.target.textContent;    // Extract user selection
+    opponentTurn(); // Trigger opponent turn to make selection
+    userText.textContent = `User: ${user}`; // Update text to show user selection
+    opponentText.textContent = `Opponent: ${opponent}`; // Update text to show opponent selection
+    result = checkWinner(); // Check game result
+    resultText.textContent = result;    // Display result from the game
+    updateScore(result);    //Update score based on result
 
-    user = button.textContent;
-    opponentTurn();
-    userText.textContent = `User: ${user}`;
-    opponentText.textContent = `Opponent: ${opponent}`;
-    result = checkWinner();
-    resultText.textContent = result;
-    updateScore(result);
-}));
+ }
 
 /* Main game function */
 
@@ -89,3 +89,9 @@ function updateScore(result) {
     opponentScoreText.textContent = `Opponent: ${opponentScore}`;
     drawScoreText.textContent = `Draw: ${drawScore}`;
 }
+
+/* DOM */
+
+document.addEventListener("DOMContentLoaded", (event) => {  // Event listener triggers when DOM is loaded
+    choiceBtns.forEach(button => button.addEventListener("click", initializeSelection));    // Event listener attached to choice buttons to initialize selection
+  });
