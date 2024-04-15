@@ -77,20 +77,25 @@ The live link can be found here - [GitHub link](https://rebazp.github.io/Rock-Pa
 
 ## Credits
 
-The code that I've used in this project is my own, tutorial and inspired from Youtube channels:
+The code that I've used in this project is my own and inspired from tutorials and Youtube channels:
 
+- [JavaScriptInfo](https://javascript.info)
 - [W3Schools](https://www.w3schools.com)
 - [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode)
 - [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn)
 
 ### Content
 
-- The main game area and function is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
+- The main game area and function is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode), [JavaScriptInfo](https://javascript.info) and [W3Schools](https://www.w3schools.com)
 - The winner area and code for lizard and spock is inspired from [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn),  [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
-- The score area is inspired from [W3Schools](https://www.w3schools.com)
+- The score area is inspired from [W3Schools](https://www.w3schools.com) and [JavaScriptInfo](https://javascript.info)
 - The style and coloring code is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
 - Picture with instructions on how to play the game comes from [Momonhg](https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game)
 
 ### Media
 
 - The photos used in this game comes from a blog by [Momonhg](<https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game>)
+
+## Acknowledgement
+
+- I would like to thank my mentor Rohit Sharma and the community at slack.
