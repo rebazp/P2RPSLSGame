@@ -8,10 +8,12 @@ const resultText = document.querySelector("#resultText");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
 const playerScoreText = document.querySelector("#playerScore");
 const computerScoreText = document.querySelector("#computerScore");
+const drawScoreText = document.querySelector("#drawScore");
 let player;
 let computer;
 let playerScore = 0;
 let computerScore = 0;
+let drawScore = 0;
 
 /**
  * Main game area
@@ -88,7 +90,10 @@ function updateScore(result) {
         playerScore++;
     } else if (result === "YOU LOSE!") {
         computerScore++;
+    } else if (result === "DRAW") {
+        drawScore++;
     }
     playerScoreText.textContent = `Player: ${playerScore}`;
     computerScoreText.textContent = `Computer: ${computerScore}`;
+    drawScoreText.textContent = `Draw: ${drawScore}`;
 }
