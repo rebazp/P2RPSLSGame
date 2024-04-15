@@ -1,6 +1,4 @@
-/**
- * Constants, DOM elements and buttons 
- */
+/* Constants, DOM elements and buttons */
 
 const playerText = document.querySelector("#playerText");
 const computerText = document.querySelector("#computerText");
@@ -15,9 +13,8 @@ let playerScore = 0;
 let computerScore = 0;
 let drawScore = 0;
 
-/**
- * Main game area
- */
+/* Main game area */
+
 choiceBtns.forEach(button => button.addEventListener("click", () => {
 
     player = button.textContent;
@@ -29,9 +26,7 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     updateScore(result);
 }));
 
-/**
- * Main game function
- */
+/* Main game function */
 
 function computerTurn() {
 
@@ -57,9 +52,7 @@ function computerTurn() {
     }
 }
 
-/**
- * Winner function
- */
+/* Winner function */
 
 function checkWinner() {
     if (player == computer) {
@@ -82,9 +75,8 @@ function checkWinner() {
     }
 }
 
-/**
- * Update score function
- */
+/* Update score function */
+
 function updateScore(result) {
     if (result === "YOU WIN!") {
         playerScore++;
