@@ -1,5 +1,4 @@
 /*Game area structure*/
-
 #gameDiv {
     font-family: 'Times New Roman', cursive;
     border: 10px double;
@@ -11,7 +10,6 @@
 }
 
 /*Game area color, size and buttons*/
-
 .choiceBtn {
     line-height: 25px;
     width: 200px;
@@ -56,7 +54,6 @@
 }
 
 /*Rule and picture section*/
-
 #imageContainer {
     display: flex;
     justify-content: center;
