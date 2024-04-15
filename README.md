@@ -1,16 +1,18 @@
-# Rock, Paper, Scissor, Lizard, Spock. A classic game with a twist
+# ROCK - PAPER - SCISSOR - LIZARD - SPOCK
 
-This game is made for entertainmet purpose for those who want to play rock, paper, scissor, lizard, spock with. Here you can play the game as much as you want by yourself against the computer. It's easy to use and is enjoyable for all ages.
+This game is made for entertainmet purpose for those who want to play rock, paper, scissor, lizard, spock. Here you can play the game as much as you want by yourself against the computer. It's easy to use and is enjoyable for all ages.
 
-You play against the computer which picks a random option everytime.
+You play against the computer which picks a random option everytime. The rusults are shown so it's to keep track of the score.
 
 ![Responsive Mockup](assets/images/responsive.jpg)
 
 ## Features
 
-The game have two main objects. One area for the game where the player chose one option (rock, paper, scissor, lizard, spock). When the player have chosen one option the computer will immediately also chose one random option. Based on the rules. The game either ends in win, lose or draw.
+The game have three main objects. One area for the game where the player chose one option (rock, paper, scissor, lizard, spock). When the player have chosen one option the computer will immediately also chose one random option. Based on the rules. The game either ends in win, lose or draw.
 
-The second object is the picture showing the rules of the game. It's easy to understand with suitable icons for all ages.
+The second object is to keep track of the results. The player, computer and draw scores are shown and updates after every turn.
+
+The third object is the picture showing the rules of the game. It's easy to understand with suitable icons for all ages.
 
 ### Existing Features
 
