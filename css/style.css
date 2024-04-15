@@ -47,12 +47,12 @@
 
 /*Score section*/
 #score {
-    color: white;
+    color: red;
     font-size: 25px;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 2px 2px 5px black;
 }
 
 /*Rule and picture section*/
