@@ -51,16 +51,16 @@ There is no unfixed bugs.
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2Frebazp%2FRock-Paper-Scissor-Lizard-Spock.git#textarea)
+  - No errors were returned when passing through the official [W3C validator](assets/images/2ndw3c.jpg)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frebazp.github.io%2FRock-Paper-Scissor-Lizard-Spock%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+  - No errors were found when passing through the official [(Jigsaw) validator](assets/images/2ndw3.jpg)
 - JavaScript
-  - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+  - No errors were found when passing through the official [Jshint validator](assets/images/2ndjshint.jpg)
     - The following metrics were returned:
-    - There are 5 functions in this file.
-    - Function with the largest signature takes 1 arguments, while the median is 0.
-    - Largest function has 7 statements in it, while the median is 7.
-    - The most complex function has a cyclomatic complexity value of 17 while the median is 4.
+    - There are 6 functions in this file.
+    - Function with the largest signature takes 1 arguments, while the median is 1.
+    - Largest function has 7 statements in it, while the median is 4.5.
+    - The most complex function has a cyclomatic complexity value of 17 while the median is 2.5.
 - Accessibility
   - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
