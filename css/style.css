@@ -22,6 +22,7 @@
     box-shadow: 15 15px #003A46;
     cursor: pointer;
     text-align: center;
+    background-color: #52ad55;
 }
 
 .choiceBtn:hover {background-color: #173518}

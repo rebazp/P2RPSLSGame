@@ -4,7 +4,7 @@ This game is made for entertainmet purpose for those who want to play rock, pape
 
 You play against the computer which picks a random option everytime. The rusults are shown so it's to keep track of the score.
 
-![Responsive Mockup](assets/images/responsive.jpg)
+![Responsive Mockup](assets/images/2ndresponsive.jpg)
 
 ## Features
 
