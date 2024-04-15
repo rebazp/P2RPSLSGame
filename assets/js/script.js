@@ -1,15 +1,15 @@
 /* Constants, DOM elements and buttons */
 
-const playerText = document.querySelector("#playerText");
+const userText = document.querySelector("#userText");
 const opponentText = document.querySelector("#opponentText");
 const resultText = document.querySelector("#resultText");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
-const playerScoreText = document.querySelector("#playerScore");
+const userScoreText = document.querySelector("#userScore");
 const opponentScoreText = document.querySelector("#opponentScore");
 const drawScoreText = document.querySelector("#drawScore");
-let player;
+let user;
 let opponent;
-let playerScore = 0;
+let userScore = 0;
 let opponentScore = 0;
 let drawScore = 0;
 
@@ -17,9 +17,9 @@ let drawScore = 0;
 
 choiceBtns.forEach(button => button.addEventListener("click", () => {
 
-    player = button.textContent;
+    user = button.textContent;
     opponentTurn();
-    playerText.textContent = `Player: ${player}`;
+    userText.textContent = `User: ${user}`;
     opponentText.textContent = `Opponent: ${opponent}`;
     result = checkWinner();
     resultText.textContent = result;
@@ -55,23 +55,23 @@ function opponentTurn() {
 /* Winner function */
 
 function checkWinner() {
-    if (player == opponent) {
+    if (user == opponent) {
         return "DRAW";
     }
     else if (opponent == "ROCK") {
-        return (player == "SCISSOR" || player == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
+        return (user == "SCISSOR" || user == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (opponent == "PAPER") {
-        return (player == "ROCK" || player == "SPOCK") ? "YOU LOSE!" : "YOU WIN!";
+        return (user == "ROCK" || user == "SPOCK") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (opponent == "SCISSOR") {
-        return (player == "PAPER" || player == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
+        return (user == "PAPER" || user == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (opponent == "LIZARD") {
-        return (player == "SPOCK" || player == "PAPER") ? "YOU LOSE!" : "YOU WIN!";
+        return (user == "SPOCK" || user == "PAPER") ? "YOU LOSE!" : "YOU WIN!";
     }
     else if (opponent == "SPOCK") {
-        return (player == "SCISSOR" || player == "ROCK") ? "YOU LOSE!" : "YOU WIN!";
+        return (user == "SCISSOR" || user == "ROCK") ? "YOU LOSE!" : "YOU WIN!";
     }
 }
 
@@ -79,13 +79,13 @@ function checkWinner() {
 
 function updateScore(result) {
     if (result === "YOU WIN!") {
-        playerScore++;
+        userScore++;
     } else if (result === "YOU LOSE!") {
         opponentScore++;
     } else if (result === "DRAW") {
         drawScore++;
     }
-    playerScoreText.textContent = `Player: ${playerScore}`;
+    userScoreText.textContent = `User: ${userScore}`;
     opponentScoreText.textContent = `Opponent: ${opponentScore}`;
     drawScoreText.textContent = `Draw: ${drawScore}`;
 }
