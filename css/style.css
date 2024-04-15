@@ -40,6 +40,10 @@
     align-items: center;
     height: 400px;
     margin-top: 15px;
+    border: 10px ridge;
+    border-color: gray;
+    border-radius: 25px;
+    padding: 25px;
 }
 
 #GameRules {
