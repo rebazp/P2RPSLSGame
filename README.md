@@ -51,11 +51,11 @@ There is no unfixed bugs.
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](assets/images/2ndw3c.jpg)
+  - No errors were returned when passing through the official [W3C Markup Validation](https://validator.w3.org/) ![Jigsaw validator](assets/images/2ndw3.jpg)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](assets/images/2ndw3.jpg)
+  - No errors were found when passing through the official [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) ![W3C validator](assets/images/2ndw3c.jpg)
 - JavaScript
-  - No errors were found when passing through the official [Jshint validator](assets/images/2ndjshint.jpg)
+  - No errors were found when passing through the official [JsHint](https://jshint.com/) ![Jshint validator](assets/images/2ndjshint.jpg)
     - The following metrics were returned:
     - There are 6 functions in this file.
     - Function with the largest signature takes 1 arguments, while the median is 1.
