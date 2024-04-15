@@ -10,7 +10,7 @@
 
 }
 
-/*Game area color and size*/
+/*Game area color, size and buttons*/
 
 .choiceBtn {
     line-height: 25px;
@@ -47,10 +47,10 @@
 /*Score section*/
 #score {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /*Rule and picture section*/
