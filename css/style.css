@@ -18,6 +18,18 @@
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 55px;
+    box-shadow: 25 25px #003A46;
+    cursor: pointer;
+    text-align: center;
+}
+
+.choiceBtn:hover {background-color: #173518}
+
+.choiceBtn:active {
+  background-color: #52ad55;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 #playerText {
