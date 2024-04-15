@@ -1,41 +1,69 @@
 /*Game area structure*/
-
 #gameDiv {
     font-family: 'Times New Roman', cursive;
-    border: 5px solid;
+    border: 10px double;
     border-radius: 25px;
-    padding: 10px;
-    background-color: bisque;
+    padding: 25px;
+    background-color: #003A46;
     text-align: center;
 
 }
 
-/*Game area color and size*/
-
+/*Game area color, size and buttons*/
 .choiceBtn {
     line-height: 25px;
-    width: 150px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 15px 15px #003A46;
+    cursor: pointer;
+    text-align: center;
+    background-color: #52ad55;
 }
 
-#playerText {
-    color: black
+.choiceBtn:hover {background-color: #173518}
+
+.choiceBtn:active {
+  background-color: #52ad55;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
-#computerText {
-    color: rgb(6, 160, 45)
+#userText {
+    color: #086904
+}
+
+#opponentText {
+    color: rgb(108, 131, 5)
 }
 
 #resultText {
-    color: rgb(160, 6, 160)
+    color: red;
+}
+
+/*Score section*/
+#score {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px black;
 }
 
 /*Rule and picture section*/
-
 #imageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
+    border: 10px ridge;
+    border-color: gray;
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #003A46;
 }
 
 #GameRules {

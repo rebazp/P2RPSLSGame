@@ -1,76 +1,95 @@
-/**
- * Constants, DOM elements and buttons 
- */
+/* Constants, selecting DOM elements and buttons */
+const userText = document.querySelector("#userText");   // Select DOM to display user selection
+const opponentText = document.querySelector("#opponentText");   // Select DOM to display opponent selection
+const resultText = document.querySelector("#resultText");   // Select DOM to display result
+const choiceBtns = document.querySelectorAll(".choiceBtn"); // Select DOM to representing available buttons
+const userScoreText = document.querySelector("#userScore"); // Select DOM to display user score
+const opponentScoreText = document.querySelector("#opponentScore"); // Select DOM to display opponent score
+const drawScoreText = document.querySelector("#drawScore"); // Select DOM to display draw score
+// Store user and opponent selections
+let user;
+let opponent;
+// Store user, opponent and draw scores
+let userScore = 0;
+let opponentScore = 0;
+let drawScore = 0;
 
-const playerText = document.querySelector("#playerText");
-const computerText = document.querySelector("#computerText");
-const resultText = document.querySelector("#resultText");
-const choiceBtns = document.querySelectorAll(".choiceBtn");
-let player;
-let computer;
-let result;
+/* Main game area */
+function initializeSelection(event) {   // Activate game after user selection
+    user = event.target.textContent;    // Extract user selection
+    opponentTurn(); // Trigger opponent turn to make selection
+    userText.textContent = `User: ${user}`; // Update text to show user selection
+    opponentText.textContent = `Opponent: ${opponent}`; // Update text to show opponent selection
+    result = checkWinner(); // Check game result
+    resultText.textContent = result;    // Display result from the game
+    updateScore(result);    //Update score based on result
 
-/**
- * Main game area
- */
-choiceBtns.forEach(button => button.addEventListener("click", () => {
+ }
 
-    player = button.textContent;
-    computerTurn();
-    playerText.textContent = `Player: ${player}`;
-    computerText.textContent = `Computer: ${computer}`;
-    resultText.textContent = checkWinner();
-}));
+/* Main game function */
+function opponentTurn() {
 
-/**
- * Main game function
- */
+    const randNum = Math.floor(Math.random() * 5) + 1;  // Generate random number between 1-5
 
-function computerTurn() {
-
-    const randNum = Math.floor(Math.random() * 5) + 1;
-
+    // Switch statement to assign opponent's selection based on the random number
     switch (randNum) {
         case 1:
-            computer = "ROCK";
+            opponent = "ROCK";      // If random number is 1, opponent chooses ROCK
             break;
         case 2:
-            computer = "PAPER";
+            opponent = "PAPER";     // If random number is 2, opponent chooses PAPER
             break;
         case 3:
-            computer = "SCISSOR";
+            opponent = "SCISSOR";   // If random number is 3, opponent chooses SCISSOR
             break;
         case 4:
-            computer = "LIZARD";
+            opponent = "LIZARD";    // If random number is 4, opponent chooses LIZARD
             break;
         case 5:
-            computer = "SPOCK";
+            opponent = "SPOCK";     // If random number is 5, opponent chooses SPOCK
             break;
 
     }
 }
 
-/**
- * Winner function
- */
-
-function checkWinner() {
-    if (player == computer) {
+/* Winner function */
+function checkWinner() {    // Check who's the winner
+    if (user == opponent) { // Check for draw
         return "DRAW";
     }
-    else if (computer == "ROCK") {
-        return (player == "SCISSOR" || player == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
+    // Check for win/lose based on opponents choice
+    else if (opponent == "ROCK") {
+        return (user == "SCISSOR" || user == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
     }
-    else if (computer == "PAPER") {
-        return (player == "ROCK" || player == "SPOCK") ? "YOU LOSE!" : "YOU WIN!";
+    else if (opponent == "PAPER") {
+        return (user == "ROCK" || user == "SPOCK") ? "YOU LOSE!" : "YOU WIN!";
     }
-    else if (computer == "SCISSOR") {
-        return (player == "PAPER" || player == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
+    else if (opponent == "SCISSOR") {
+        return (user == "PAPER" || user == "LIZARD") ? "YOU LOSE!" : "YOU WIN!";
     }
-    else if (computer == "LIZARD") {
-        return (player == "SPOCK" || player == "PAPER") ? "YOU LOSE!" : "YOU WIN!";
+    else if (opponent == "LIZARD") {
+        return (user == "SPOCK" || user == "PAPER") ? "YOU LOSE!" : "YOU WIN!";
     }
-    else if (computer == "SPOCK") {
-        return (player == "SCISSOR" || player == "ROCK") ? "YOU LOSE!" : "YOU WIN!";
+    else if (opponent == "SPOCK") {
+        return (user == "SCISSOR" || user == "ROCK") ? "YOU LOSE!" : "YOU WIN!";
     }
 }
+
+/* Update score function */
+function updateScore(result) {  // Update score based on result
+    if (result === "YOU WIN!") {    // Check result and update score
+        userScore++;    // Incriment users score if they won
+    } else if (result === "YOU LOSE!") {
+        opponentScore++;    // Incriment opponent score if they won
+    } else if (result === "DRAW") {
+        drawScore++;    // Incriment draw score if they game ended in draw
+    }
+    userScoreText.textContent = `User: ${userScore}`;   // Update user score text
+    opponentScoreText.textContent = `Opponent: ${opponentScore}`;   // Update opponent score text
+    drawScoreText.textContent = `Draw: ${drawScore}`;   // Update draw score text
+}
+
+/* DOM */
+document.addEventListener("DOMContentLoaded", (event) => {  // Event listener triggers when DOM is loaded
+    choiceBtns.forEach(button => button.addEventListener("click", initializeSelection));    // Event listener attached to choice buttons to initialize selection
+  });
