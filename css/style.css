@@ -15,11 +15,11 @@
 .choiceBtn {
     line-height: 25px;
     width: 200px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
-    border-radius: 55px;
-    box-shadow: 25 25px #003A46;
+    border-radius: 15px;
+    box-shadow: 15 15px #003A46;
     cursor: pointer;
     text-align: center;
 }
