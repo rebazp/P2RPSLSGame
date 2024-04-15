@@ -16,21 +16,23 @@ The third object is the picture showing the rules of the game. It's easy to unde
 
 ### Existing Features
 
-- __The Game Area__
+- __Game Area__
 
   - This section will allow the user to play the game. The player will see the player and computer choice. When the player have chosen one option, the result will appear. There are buttons with five options which the player can chose from by clicking on them. The player can only chose one option at the time.
 
-![Game](assets/images/game.jpg)
+![Game](assets/images/2ndgame.jpg)
 
-- __The Rule Section__
+- __Score Section__
+
+  - This section shows the current score of the game.
+
+![Rules](assets/images/2ndscore.jpg)
+
+- __Rule Section__
 
   - This section shows a simple to understand picture with the game rules.
 
-![Rules](assets/images/rpslk.jpg)
-
-### Features Left to Implement
-
-- A feature that could be added in the future is to track the score, set a score limit and reset score button.
+![Rules](assets/images/2ndrules.jpg)
 
 ## Testing
 
@@ -38,7 +40,13 @@ I have played this game many times with multiple options to see if it works as i
 
 The game works on different platforms and is adaptive and responsive.
 
+## Bugs
+
 I did not encounter any bugs. But I did have to try different options to make the game work with the addition of lizard and spock since the main game code was based on rock, paper and scissor.
+
+### Unfixed Bugs
+
+There is no unfixed bugs.
 
 ### Validator Testing
 
@@ -57,10 +65,6 @@ I did not encounter any bugs. But I did have to try different options to make th
   - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 ![Lighthouse](assets/images/lighthouse.jpg)
-
-### Unfixed Bugs
-
-There is no unfixed bugs.
 
 ## Deployment
 
