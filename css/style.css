@@ -2,10 +2,10 @@
 
 #gameDiv {
     font-family: 'Times New Roman', cursive;
-    border: 5px solid;
+    border: 10px double;
     border-radius: 25px;
-    padding: 10px;
-    background-color: bisque;
+    padding: 25px;
+    background-color: #003A46;
     text-align: center;
 
 }
@@ -14,7 +14,10 @@
 
 .choiceBtn {
     line-height: 25px;
-    width: 150px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #playerText {
@@ -36,6 +39,7 @@
     justify-content: center;
     align-items: center;
     height: 400px;
+    margin-top: 15px;
 }
 
 #GameRules {
