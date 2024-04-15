@@ -6,9 +6,12 @@ const playerText = document.querySelector("#playerText");
 const computerText = document.querySelector("#computerText");
 const resultText = document.querySelector("#resultText");
 const choiceBtns = document.querySelectorAll(".choiceBtn");
+const playerScoreText = document.querySelector("#playerScore");
+const computerScoreText = document.querySelector("#computerScore");
 let player;
 let computer;
-let result;
+let playerScore = 0;
+let computerScore = 0;
 
 /**
  * Main game area
@@ -19,7 +22,9 @@ choiceBtns.forEach(button => button.addEventListener("click", () => {
     computerTurn();
     playerText.textContent = `Player: ${player}`;
     computerText.textContent = `Computer: ${computer}`;
-    resultText.textContent = checkWinner();
+    result = checkWinner();
+    resultText.textContent = result;
+    updateScore(result);
 }));
 
 /**
@@ -73,4 +78,17 @@ function checkWinner() {
     else if (computer == "SPOCK") {
         return (player == "SCISSOR" || player == "ROCK") ? "YOU LOSE!" : "YOU WIN!";
     }
+}
+
+/**
+ * Update score function
+ */
+function updateScore(result) {
+    if (result === "YOU WIN!") {
+        playerScore++;
+    } else if (result === "YOU LOSE!") {
+        computerScore++;
+    }
+    playerScoreText.textContent = `Player: ${playerScore}`;
+    computerScoreText.textContent = `Computer: ${computerScore}`;
 }

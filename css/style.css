@@ -32,6 +32,15 @@
     color: red;
 }
 
+/*Score section*/
+#score {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*Rule and picture section*/
 
 #imageContainer {

@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <!--
-    Main game area
-  -->
+  <!-- Main game area -->
   <body>
     <div id="gameDiv">
       <h1 class="gameText" id="playerText">PLAYER:</h1>
       <h1 class="gameText" id="computerText">COMPUTER:</h1>
       <h1 class="gameText" id="resultText">RESULT:</h1>
 
+      <!-- Game btton area -->
       <button class="choiceBtn">ROCK</button>
       <button class="choiceBtn">PAPER</button>
       <button class="choiceBtn">SCISSOR</button>
@@ -24,16 +23,19 @@
       <button class="choiceBtn">SPOCK</button>
     </div>
 
-    <!--
-        Picture with the rules
-    -->
+    <!-- Score area -->
+    <div>
+      <div id="score">
+      <span id="playerScore">Player: 0</span>
+      <span id="computerScore">Computer: 0</span>
+    </div>
+
+    <!-- Picture with the rules -->
     <div id="imageContainer">
       <img id="GameRules" src="assets/images/rpslk.jpg" alt="Game rules">
     </div>
 
-    <!--
-    Link to javascript
--->
+    <!-- Link to javascript -->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
