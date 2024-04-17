@@ -89,9 +89,11 @@ function updateScore(result) {  // Update score based on result
 
 /* Restart game function */
 function restartGame() {
+    // Reset scores
     userScore = 0;
     opponentScore = 0;
     drawScore = 0;
+    // Update text to display the reset scores
     userScoreText.textContent = `User: ${userScore}`;
     opponentScoreText.textContent = `Opponent: ${opponentScore}`;
     drawScoreText.textContent = `Draw: ${drawScore}`;
