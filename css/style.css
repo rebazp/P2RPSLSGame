@@ -10,7 +10,7 @@
 }
 
 /*Game area color, size and buttons*/
-.choiceBtn {
+.optionBtn {
     line-height: 25px;
     width: 200px;
     margin-top: 15px;
@@ -23,9 +23,9 @@
     background-color: #52ad55;
 }
 
-.choiceBtn:hover {background-color: #173518}
+.optionBtn:hover {background-color: #173518}
 
-.choiceBtn:active {
+.optionBtn:active {
   background-color: #52ad55;
   box-shadow: 0 5px #666;
   transform: translateY(4px);

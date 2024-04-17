@@ -2,7 +2,7 @@
 const userText = document.querySelector("#userText");   // Select DOM to display user selection
 const opponentText = document.querySelector("#opponentText");   // Select DOM to display opponent selection
 const resultText = document.querySelector("#resultText");   // Select DOM to display result
-const choiceBtns = document.querySelectorAll(".choiceBtn"); // Select DOM to representing available buttons
+const optionBtns = document.querySelectorAll(".optionBtn"); // Select DOM to representing available buttons
 const userScoreText = document.querySelector("#userScore"); // Select DOM to display user score
 const opponentScoreText = document.querySelector("#opponentScore"); // Select DOM to display opponent score
 const drawScoreText = document.querySelector("#drawScore"); // Select DOM to display draw score
@@ -91,5 +91,5 @@ function updateScore(result) {  // Update score based on result
 
 /* DOM */
 document.addEventListener("DOMContentLoaded", (event) => {  // Event listener triggers when DOM is loaded
-    choiceBtns.forEach(button => button.addEventListener("click", initializeSelection));    // Event listener attached to choice buttons to initialize selection
+    optionBtns.forEach(button => button.addEventListener("click", initializeSelection));    // Event listener attached to option buttons to initialize selection
   });
