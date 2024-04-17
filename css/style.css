@@ -30,6 +30,13 @@
   transform: translateY(4px);
 }
 
+/* Restart button */
+#restartContainer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #userText {
     color: #086904
 }

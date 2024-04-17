@@ -87,7 +87,18 @@ function updateScore(result) {  // Update score based on result
     drawScoreText.textContent = `Draw: ${drawScore}`;   // Update draw score text
 }
 
+/* Restart game function */
+function restartGame() {
+    userScore = 0;
+    opponentScore = 0;
+    drawScore = 0;
+    userScoreText.textContent = `User: ${userScore}`;
+    opponentScoreText.textContent = `Opponent: ${opponentScore}`;
+    drawScoreText.textContent = `Draw: ${drawScore}`;
+}
+
 /* DOM */
 document.addEventListener("DOMContentLoaded", (event) => {  // Event listener triggers when DOM is loaded
     optionBtns.forEach(button => button.addEventListener("click", initializeSelection));    // Event listener attached to option buttons to initialize selection
+    document.getElementById("restartBtn").addEventListener("click", restartGame); // Event listener for restart button
   });
