@@ -105,6 +105,7 @@ The code that I've used in this project is my own and inspired from tutorials an
 
 ## Content
 
+- The fonts used in this project are Aboreto, sans-serif.
 - The main game area and function is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode), [JavaScriptInfo](https://javascript.info) and [W3Schools](https://www.w3schools.com)
 - The winner function and code for lizard and spock is inspired from [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn),  [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
 - The score and restart function is inspired from [W3Schools](https://www.w3schools.com) and [JavaScriptInfo](https://javascript.info)
