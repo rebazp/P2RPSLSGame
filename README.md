@@ -1,24 +1,35 @@
 # ROCK - PAPER - SCISSOR - LIZARD - SPOCK
 
-This game is made for entertainmet purpose for those who want to play rock, paper, scissor, lizard, spock. Here you can play the game as much as you want by yourself against the computer. It's easy to use and is enjoyable for all ages.
+This game is made for entertainment purposes for those who want to play rock, paper, scissors, lizard, spock. Here you can play the game as much as you want by yourself against the computer. It's easy to use and enjoyable for all ages.
 
-You play against the computer which picks a random option everytime. The rusults are shown so it's to keep track of the score.
+You play against the computer, which picks a random option every time. The results are shown, making it easy to keep track of the score.
+
+- [View Live Version Here](https://rebazp.github.io/P2RPSLSGame/)
 
 ![Responsive Mockup](assets/images/2ndresponsive.jpg)
 
+# Table of Contents
+* [Features](#features)
+* [Testing](#testing)
+* [Validator Testing](#validator-testing)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgement](#acknowledgement)
+
 ## Features
 
-The game have three main objects. One area for the game where the player chose one option (rock, paper, scissor, lizard, spock). When the player have chosen one option the computer will immediately also chose one random option. Based on the rules. The game either ends in win, lose or draw.
+The game has three main components. One area is designated for the game, where the player chooses one option (rock, paper, scissors, lizard, spock). Once the player has chosen an option, the computer immediately selects a random one as well. Based on the rules, the game can end in a win, loss, or draw.
 
-The second object is to keep track of the results. The player, computer and draw scores are shown and updates after every turn.
+The second component is to keep track of the results. The player's, computer's, and draw scores are displayed and updated after every turn.
 
-The third object is the picture showing the rules of the game. It's easy to understand with suitable icons for all ages.
+The third component is a picture showing the rules of the game. It's easy to understand, with suitable icons for all ages.
 
 ### Existing Features
 
 - __Game Area__
 
-  - This section will allow the user to play the game. The player will see the player and computer choice. When the player have chosen one option, the result will appear. There are buttons with five options which the player can chose from by clicking on them. The player can only chose one option at the time.
+  - This section will allow the user to play the game. The player will see their choice and the computer's choice. When the player has chosen an option, the result will appear. There are buttons with five options from which the player can choose by clicking on them. The player can only choose one option at a time.
 
 ![Game](assets/images/2ndgame.jpg)
 
@@ -36,19 +47,11 @@ The third object is the picture showing the rules of the game. It's easy to unde
 
 ## Testing
 
-I have played this game many times with multiple options to see if it works as intended. From my testing I haven't stumbled upon any problems with the game. The computer picks one random option everytime and follows the rules on who won, lost or draw.
+I have played this game many times with multiple options to see if it works as intended. From my testing, I haven't stumbled upon any problems with the game. The computer picks one random option every time and follows the rules on who won, lost, or drew.
 
 The game works on different platforms and is adaptive and responsive.
 
-## Bugs
-
-I did not encounter any bugs. But I did have to try different options to make the game work with the addition of lizard and spock since the main game code was based on rock, paper and scissor.
-
-### Unfixed Bugs
-
-There is no unfixed bugs.
-
-### Validator Testing
+## Validator Testing
 
 - HTML
   - No errors were returned when passing through the official [W3C Markup Validation](https://validator.w3.org/) ![Jigsaw validator](assets/images/2ndw3.jpg)
@@ -65,6 +68,14 @@ There is no unfixed bugs.
   - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 ![Lighthouse](assets/images/2ndlighthouse.jpg)
+
+## Bugs
+
+I did not encounter any bugs, but I had to try different options to make the game work with the addition of lizard and spock, as the main game code was based on rock, paper, and scissors."
+
+### Unfixed Bugs
+
+There is no unfixed bugs.
 
 ## Deployment
 
@@ -84,7 +95,7 @@ The code that I've used in this project is my own and inspired from tutorials an
 - [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode)
 - [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn)
 
-### Content
+## Content
 
 - The main game area and function is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode), [JavaScriptInfo](https://javascript.info) and [W3Schools](https://www.w3schools.com)
 - The winner area and code for lizard and spock is inspired from [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn),  [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
