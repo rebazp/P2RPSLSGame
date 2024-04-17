@@ -79,7 +79,7 @@ The game works on different platforms and is adaptive and responsive.
 
 ## Bugs
 
-I did not encounter any bugs, but I had to try different options to make the game work with the addition of lizard and spock, as the main game code was based on rock, paper, and scissors."
+I did not encounter any bugs, but I had to try different options to make the game work with the addition of lizard and spock, as the main game code was based on rock, paper, and scissors.
 
 ### Unfixed Bugs
 
