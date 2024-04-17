@@ -19,11 +19,13 @@ You play against the computer, which picks a random option every time. The resul
 
 ## Features
 
-The game has three main components. One area is designated for the game, where the player chooses one option (rock, paper, scissors, lizard, spock). Once the player has chosen an option, the computer immediately selects a random one as well. Based on the rules, the game can end in a win, loss, or draw.
+- The game has four main components. One area is designated for the game, where the player chooses one option (rock, paper, scissors, lizard, spock). Once the player has chosen an option, the computer immediately selects a random one as well. Based on the rules, the game can end in a win, loss, or draw.
 
-The second component is to keep track of the results. The player's, computer's, and draw scores are displayed and updated after every turn.
+- The second component is to keep track of the results. The player's, computer's, and draw scores are displayed and updated after every turn.
 
-The third component is a picture showing the rules of the game. It's easy to understand, with suitable icons for all ages.
+- The third component is a picture showing the rules of the game. It's easy to understand, with suitable icons for all ages.
+
+- The fourth component let's the player restart the game.
 
 ### Existing Features
 
@@ -38,6 +40,12 @@ The third component is a picture showing the rules of the game. It's easy to und
   - This section shows the current score of the game.
 
 ![Rules](assets/images/2ndscore.jpg)
+
+- __Restart Section__
+
+  - This section let's the player restart the game.
+
+![Rules](assets/images/2ndrestart.jpg)
 
 - __Rule Section__
 
@@ -54,16 +62,16 @@ The game works on different platforms and is adaptive and responsive.
 ## Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C Markup Validation](https://validator.w3.org/) ![Jigsaw validator](assets/images/2ndw3.jpg)
+  - No errors were returned when passing through the official [W3 Markup Validation](https://validator.w3.org/) ![Jigsaw validator](assets/images/2ndw3.jpg)
 - CSS
   - No errors were found when passing through the official [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) ![W3C validator](assets/images/2ndw3c.jpg)
 - JavaScript
   - No errors were found when passing through the official [JsHint](https://jshint.com/) ![Jshint validator](assets/images/2ndjshint.jpg)
     - The following metrics were returned:
-    - There are 6 functions in this file.
+    - There are 7 functions in this file.
     - Function with the largest signature takes 1 arguments, while the median is 1.
-    - Largest function has 7 statements in it, while the median is 4.5.
-    - The most complex function has a cyclomatic complexity value of 17 while the median is 2.5.
+    - Largest function has 7 statements in it, while the median is 6.
+    - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
 - Accessibility
   - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
@@ -98,14 +106,14 @@ The code that I've used in this project is my own and inspired from tutorials an
 ## Content
 
 - The main game area and function is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode), [JavaScriptInfo](https://javascript.info) and [W3Schools](https://www.w3schools.com)
-- The winner area and code for lizard and spock is inspired from [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn),  [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
-- The score area is inspired from [W3Schools](https://www.w3schools.com) and [JavaScriptInfo](https://javascript.info)
-- The style and coloring code is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
-- Picture with instructions on how to play the game comes from [Momonhg](https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game)
+- The winner function and code for lizard and spock is inspired from [Coding with Jon](https://www.youtube.com/watch?v=Nb1YRElHVLc&t=3s&ab_channel=CodingwithJohn),  [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
+- The score and restart function is inspired from [W3Schools](https://www.w3schools.com) and [JavaScriptInfo](https://javascript.info)
+- The style and coloring is inspired from [Bro Code](https://www.youtube.com/watch?v=n1_vHArDBRA&ab_channel=BroCode) and [W3Schools](https://www.w3schools.com)
+- Picture with instructions on how to play the game comes from a blog made by [Akshay Bahadur](https://akshaybahadur.medium.com/rock-paper-scissors-lizard-spock-%EF%B8%8F-514f0a2b8c1a)
 
 ### Media
 
-- The photos used in this game comes from a blog by [Momonhg](<https://www.momonhg.com/blog/rock-paper-scissors-lizard-and-spock-game>)
+- The photos used in this game comes from a blog by [Akshay Bahadur](https://akshaybahadur.medium.com/rock-paper-scissors-lizard-spock-%EF%B8%8F-514f0a2b8c1a)
 
 ## Acknowledgement
 
