@@ -23,7 +23,6 @@ function initializeSelection(event) {   // Activate game after user selection
     result = checkWinner(); // Check game result
     resultText.textContent = result;    // Display result from the game
     updateScore(result);    //Update score based on result
-
  }
 
 /* Main game function */
@@ -48,7 +47,6 @@ function opponentTurn() {
         case 5:
             opponent = "SPOCK";     // If random number is 5, opponent chooses SPOCK
             break;
-
     }
 }
 
