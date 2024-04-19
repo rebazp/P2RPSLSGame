@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 /* Constants, selecting DOM elements and buttons */
 const userText = document.querySelector("#userText");   // Select DOM to display user selection
 const opponentText = document.querySelector("#opponentText");   // Select DOM to display opponent selection
@@ -13,16 +14,25 @@ let opponent;
 let userScore = 0;
 let opponentScore = 0;
 let drawScore = 0;
+// Track the number of rounds played
+let roundsPlayed = 0;
+const maxRounds = 10; // Maximum rounds allowed
 
 /* Main game area */
 function initializeSelection(event) {   // Activate game after user selection
+    if (roundsPlayed < maxRounds) {     // Check if max rounds reached
     user = event.target.textContent;    // Extract user selection
     opponentTurn(); // Trigger opponent turn to make selection
     userText.textContent = `User: ${user}`; // Update text to show user selection
     opponentText.textContent = `Opponent: ${opponent}`; // Update text to show opponent selection
-    result = checkWinner(); // Check game result
+    result = checkWinner();   // Check result for current round
     resultText.textContent = result;    // Display result from the game
     updateScore(result);    //Update score based on result
+    roundsPlayed++; // Increment rounds played
+    if (roundsPlayed === maxRounds) {
+        disableOptionButtons(); // Disable buttons if max round reached
+        }
+    }
  }
 
 /* Main game function */
@@ -93,10 +103,26 @@ function restartGame() {
     userScore = 0;
     opponentScore = 0;
     drawScore = 0;
+    roundsPlayed = 0;
     // Update text to display the reset scores
     userScoreText.textContent = `User: ${userScore}`;
     opponentScoreText.textContent = `Opponent: ${opponentScore}`;
     drawScoreText.textContent = `Draw: ${drawScore}`;
+    enableOptionButtons();
+}
+
+/* Disable option buttons */
+function disableOptionButtons() {
+    optionBtns.forEach(button => {
+        button.disabled = true;
+    });
+}
+
+/* Enable option buttons */
+function enableOptionButtons() {
+    optionBtns.forEach(button => {
+        button.disabled = false;
+    });
 }
 
 /* DOM */

@@ -2,7 +2,7 @@
 
 This game is made for entertainment purposes for those who want to play rock, paper, scissors, lizard, spock. Here you can play the game as much as you want by yourself against the computer. It's easy to use and enjoyable for all ages.
 
-You play against the computer, which picks a random option every time. The results are shown, making it easy to keep track of the score.
+You play against the computer, which picks a random option every time. The results are shown, making it easy to keep track of the score. When the game reaches 10 turns, the game stops and the user will have to press the restart button to play again.
 
 - [View Live Version Here](https://rebazp.github.io/P2RPSLSGame/)
 
@@ -19,13 +19,15 @@ You play against the computer, which picks a random option every time. The resul
 
 ## Features
 
-- The game has four main components. One area is designated for the game, where the player chooses one option (rock, paper, scissors, lizard, spock). Once the player has chosen an option, the computer immediately selects a random one as well. Based on the rules, the game can end in a win, loss, or draw.
+- The game has five main components. One area is designated for the game, where the player chooses one option (rock, paper, scissors, lizard, spock). Once the player has chosen an option, the computer immediately selects a random one as well. Based on the rules, the game can end in a win, loss, or draw.
 
 - The second component is to keep track of the results. The player's, computer's, and draw scores are displayed and updated after every turn.
 
 - The third component is a picture showing the rules of the game. It's easy to understand, with suitable icons for all ages.
 
 - The fourth component let's the player restart the game.
+
+- The fifth component stops the game after 10 turns and disable the option buttons.
 
 ### Existing Features
 
@@ -68,9 +70,9 @@ The game works on different platforms and is adaptive and responsive.
 - JavaScript
   - No errors were found when passing through the official [JsHint](https://jshint.com/) ![Jshint validator](assets/images/2ndjshint.jpg)
     - The following metrics were returned:
-    - There are 7 functions in this file.
+    - There are 11 functions in this file.
     - Function with the largest signature takes 1 arguments, while the median is 1.
-    - Largest function has 7 statements in it, while the median is 6.
+    - Largest function has 11 statements in it, while the median is 2.
     - The most complex function has a cyclomatic complexity value of 17 while the median is 1.
 - Accessibility
   - I confirmed that colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
