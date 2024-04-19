@@ -77,6 +77,7 @@
     max-height: 100%;
 }
 
+/* Dim the disabled buttons */
 .optionBtn:disabled {
-    opacity: 0.5; /* Dim the disabled buttons */
+    opacity: 0.5;
 }
